@@ -37,7 +37,7 @@ struct Result {
     }
 };
 
-int places = 9;
+static int places = 9;
     vector<vector<Result> > results(places+1);
 
 /* Helper function that allocates a
